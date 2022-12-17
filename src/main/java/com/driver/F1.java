@@ -19,8 +19,7 @@ public class F1 extends Car {
          * speed more than 250: gear 6
          */
 
-        int currentSpeed = getCurrentSpeed();
-        newSpeed = rate + currentSpeed;
+        newSpeed = rate + getCurrentSpeed();
 
 
         if(newSpeed == 0) {
